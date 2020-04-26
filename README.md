@@ -22,7 +22,7 @@ python tools/DTW_embedding.py
 python tools/DTW_matrix_analysis.py
 ```
 
-Model Training & Testing
+## Model Training & Testing
 ```bash
 # Training process
 python train.py --config_filename='config.yaml'
