@@ -1,0 +1,24 @@
+data:
+  name: cd_m
+  batch_size: 32
+  dataset_path: data/chengdu_m/dataset.npy
+  adjacency_matrix_path: data/chengdu_m/matrix.npy
+  dtw_matrix_path: data/chengdu_m/dtw_dataset_matrix.npy
+  node_num: 524
+  speed_mean: 29.0982979559
+  speed_std: 9.75304346669
+  length: 120
+
+model:
+  epochs: 300
+  his_num: 12
+  pred_num: 6
+  choice: [1,1,1]
+  graph_dim: 32
+  tcn_dim: [10,1]
+  base_lr: 0.0001
+  atten_head: 2
+  model_filename: model_pkl/staggcn_cd_m_model.pkl
+  prediction_filename: cd_m_prediction.npy
+  ground_truth_filename: cd_m_ground_truth.npy
+log: log/chengdu_m_stmodel

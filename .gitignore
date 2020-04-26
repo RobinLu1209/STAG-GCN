@@ -1,0 +1,4 @@
+data/
+model_pkl/
+*.npy
+*.pkl
