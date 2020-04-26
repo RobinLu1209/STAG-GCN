@@ -1,6 +1,8 @@
 # STAG-GCN
 Spatiotemporal Adaptive Gated Graph Convolution Network for Urban Traffic Flow Forecasting
 
+![Spatiotemporal Adaptive Gated Graph Convolution Network](figures/system_model.png "Model Architecture")
+
 ## Requirements
 - pytorch >= 1.4.0
 - numpy >= 1.18.1
