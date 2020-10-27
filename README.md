@@ -34,16 +34,18 @@ python test.py --config_filename='config.yaml'
 ## Citation
 If you find this repository, e.g., the paper, code and the datasets, useful in your research, please cite the following paper:
 ```
-@inproceedings{lu2020staggcn,
-author = {Lu, Bin and Gan, Xiaoying and Jin, Haiming and Fu, Luoyi and Zhang, Haisong},
-title = {Spatiotemporal Adaptive Gated Graph Convolution Network for Urban Traffic Flow Forecasting},
-year = {2020},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-booktitle = {Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management},
-pages = {1025–1034},
-numpages = {10},
-location = {Virtual Event, Ireland},
-series = {CIKM '20}
+@inproceedings{DBLP:conf/cikm/LuGJFZ20,
+  author    = {Bin Lu and
+               Xiaoying Gan and
+               Haiming Jin and
+               Luoyi Fu and
+               Haisong Zhang},
+  title     = {Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
+               Traffic Flow Forecasting},
+  booktitle = {{CIKM} '20: The 29th {ACM} International Conference on Information
+               and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020},
+  pages     = {1025--1034},
+  publisher = {{ACM}},
+  year      = {2020}
 }
 ```
